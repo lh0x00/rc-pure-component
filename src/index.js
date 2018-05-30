@@ -1,6 +1,6 @@
 /* @flow */
 
-import { Component } from 'react'
+import React from 'react'
 import shallowEqual from 'fbjs/lib/shallowEqual' // eslint-disable-line
 
 export const shallowCompare = (
@@ -9,15 +9,15 @@ export const shallowCompare = (
 ): boolean => !shallowEqual(prevProps, nextProps)
 
 export function pureComponent(
-  renderFn: Function,
+  Component: Function,
   compareFn: Function = shallowCompare,
 ): any {
-  return class Wrapper extends Component <TProps, TState> {
+  return class Wrapper extends React.Component <TProps, TState> {
     shouldComponentUpdate(nextProps) {
       return compareFn(this.props, nextProps)
     }
     render() {
-      return renderFn(this.props)
+      return <Component {...this.props} />
     }
   }
 }
