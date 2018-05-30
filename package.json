@@ -1,0 +1,57 @@
+{
+  "name": "rc-pure-component",
+  "version": "0.1.0",
+  "description": "a higher-order component to reduce render times quickly",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist --presets env,es2017,stage-3,react",
+    "clean": "rimraf build",
+    "lint": "eslint --config .eslintrc . --ignore-path .gitignore --fix",
+    "flow": "flow",
+    "check": "npm run lint && npm run flow",
+    "prepare": "npm run clean && npm run lint && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lamhieu-vk/rc-pure-component.git"
+  },
+  "keywords": [
+    "react",
+    "react-dom",
+    "pure",
+    "function",
+    "render",
+    "reduce",
+    "quickly",
+    "pure-compoent",
+    "hoc",
+    "component"
+  ],
+  "author": "Lam Hieu <lamhieu.vk@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lamhieu-vk/rc-pure-component/issues"
+  },
+  "homepage": "https://github.com/lamhieu-vk/rc-pure-component#readme",
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-flowtype": "^2.48.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.8.2",
+    "flow-bin": "^0.73.0",
+    "rimraf": "^2.6.2"
+  },
+  "dependencies": {
+    "react": "^15.4.0",
+    "react-dom": "^15.4.0"
+  }
+}

@@ -1,0 +1,15 @@
+/* @flow */
+/* eslint-disable no-unused-vars */
+
+type TProps = {
+  [key: string]: any
+};
+
+type TState = {
+  [key: string]: any
+};
+
+type TObject = {
+  props: TProps,
+  state: TState
+};
