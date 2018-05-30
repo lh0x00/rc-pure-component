@@ -8,6 +8,7 @@ a higher-order component to reduce render times quickly for lazy people like me!
 ```bash
 # use npm
 $ npm install rc-pure-component
+
 # or yarn
 $ yarn add rc-pure-component
 ```
