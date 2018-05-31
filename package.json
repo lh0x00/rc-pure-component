@@ -1,6 +1,6 @@
 {
   "name": "rc-pure-component",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "a higher-order component to reduce render times quickly",
   "main": "dist/index.js",
   "scripts": {

@@ -1,5 +1,9 @@
 # about
 
+[![npm version][npm-version-image]][npm-url]
+[![npm downloads][npm-downloads-image]][npm-url]
+[![github issues][github-issues-image]][github-issues-url]
+
 a higher-order component to reduce render times quickly for lazy people like me!
 
 
@@ -51,3 +55,10 @@ import isEqual from 'lodash/isEqual'
 
 const shallowCompare = (prevProps, nextProps) => !isEqual(prevProps, nextProps)
 ```
+
+
+[npm-url]: https://npmjs.org/package/rc-pure-component
+[npm-version-image]: https://badge.fury.io/js/rc-pure-component.svg
+[npm-downloads-image]: https://img.shields.io/npm/dm/rc-pure-component.svg
+[github-issues-image]: https://img.shields.io/github/issues/lamhieu-vk/rc-pure-component.svg
+[github-issues-url]: https://github.com/lamhieu-vk/rc-pure-component/issues
