@@ -25,7 +25,7 @@ $ yarn add rc-pure-component
 const Component = ({ name = 'Hieu' }) => (<div>hello, {name}</div>)
 ```
 
-### before
+### after
 
 ```javascript
 import pure from 'rc-pure-component'
