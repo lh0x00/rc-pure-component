@@ -1,6 +1,6 @@
 {
   "name": "rc-pure-component",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "a higher-order component to reduce render times quickly",
   "main": "dist/index.js",
   "scripts": {
@@ -34,6 +34,7 @@
   },
   "homepage": "https://github.com/lamhieu-vk/rc-pure-component#readme",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-eslint": "^8.2.3",
     "babel-plugin-module-resolver": "^3.1.1",
     "babel-plugin-transform-flow-strip-types": "^6.22.0",

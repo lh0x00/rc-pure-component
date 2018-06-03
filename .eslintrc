@@ -18,8 +18,9 @@
   },
   "settings": {
     "import/resolver": {
-      "webpack": {
-        "config": "eslint-webpack-config.js"
+      "node": {
+        "paths": ["src"],
+        "extensions": [".js", ".jsx"]
       }
     }
   }
