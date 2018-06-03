@@ -1,11 +1,11 @@
 {
   "name": "rc-pure-component",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "a higher-order component to reduce render times quickly",
   "main": "dist/index.js",
   "scripts": {
     "build": "babel src --out-dir dist --presets env,es2017,stage-3,react",
-    "clean": "rimraf build",
+    "clean": "rimraf dist",
     "lint": "eslint --config .eslintrc . --ignore-path .gitignore --fix",
     "flow": "flow",
     "check": "npm run lint && npm run flow",
