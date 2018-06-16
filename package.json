@@ -8,7 +8,7 @@
     "clean": "rimraf dist",
     "lint": "eslint --config .eslintrc . --ignore-path .gitignore --fix",
     "flow": "flow",
-    "check": "npm run lint && npm run flow",
+    "check": "npm run lint && npm run lint",
     "prepare": "npm run clean && npm run lint && npm run build"
   },
   "repository": {
