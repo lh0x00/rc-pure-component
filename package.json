@@ -1,6 +1,6 @@
 {
   "name": "rc-pure-component",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "a higher-order component to reduce render times quickly",
   "main": "dist/index.js",
   "scripts": {
@@ -52,7 +52,6 @@
     "rimraf": "^2.6.2"
   },
   "dependencies": {
-    "react": "^15.4.0",
-    "react-dom": "^15.4.0"
+    "react": "^15.4.0"
   }
 }
