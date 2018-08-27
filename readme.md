@@ -1,10 +1,9 @@
 # about
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/lamhieu-vk/rc-pure-component.svg)](https://greenkeeper.io/)
-
 [![npm version][npm-version-image]][npm-url]
 [![npm downloads][npm-downloads-image]][npm-url]
 [![github issues][github-issues-image]][github-issues-url]
+[![Greenkeeper badge](https://badges.grsvgeenkeeper.io/lamhieu-vk/rc-pure-component.svg)](https://greenkeeper.io/)
 
 a higher-order component to reduce render times quickly for lazy people like me!
 
