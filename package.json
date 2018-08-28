@@ -35,7 +35,7 @@
   "homepage": "https://github.com/lamhieu-vk/rc-pure-component#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-eslint": "^8.2.3",
+    "babel-eslint": "^9.0.0",
     "babel-plugin-module-resolver": "^3.1.1",
     "babel-plugin-transform-flow-strip-types": "^6.22.0",
     "babel-preset-env": "^1.7.0",
